@@ -1,0 +1,31 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+env/
+
+# Ignore Docker-related files and folders you don't want inside image
+.dockerignore
+Dockerfile
+
+# Ignore Git
+.git
+.gitignore
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore node/npm files (if using Node.js)
+node_modules/
+npm-debug.log
+
+# Ignore test directories
+tests/
+
