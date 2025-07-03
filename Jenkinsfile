@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "mikelchisom755/jenkins2:${env.BUILD_ID}"
-        DOCKERHUB_CREDENTIALS = "mikeldockerid"  // Replace with your Jenkins Docker Hub creds ID
+        DOCKERHUB_CREDENTIALS = "Dockerid"  // Replace with your Jenkins Docker Hub creds ID
     }
 
     stages {
